@@ -15,7 +15,7 @@ future: true
 RSS: false
 #weibo_username:     username
 #zhihu_username:     username
-#github_username:    username
+github_username:    yinyeya
 #twitter_username:   username
 #facebook_username:  username
 #linkedin_username:  firstname-lastname-idxxxx
@@ -38,7 +38,7 @@ anchorjs: true                          # if you want to customize anchor. check
 # from PR#40, to support local preview for Jekyll 3.0
 # make sure you have this gem installed
 # `$ gem install jekyll-paginate`
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate]  
 
 
 
@@ -59,7 +59,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: hux
+disqus_username: yinyeya
 
 # Netease settings
 netease_comment: false
@@ -71,15 +71,15 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-# ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-# ga_domain: www.xinlongluo.top
+ga_track_id: 'UA-139612007-1'            # Format: UA-xxxxxx-xx
+ga_domain: "https://www.xinlongluo.top"
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "For the next quantum leap<br>离开世界之前，一切都是过程"
-sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "For the next quantum leap<br>想避世更要在世上"
+sidebar-avatar: /img/stand-under-sky.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
