@@ -1,7 +1,7 @@
 # Site settings
 title: 隐夜涯的自留地
 SEOTitle: 隐夜涯的自留地 | Yinyeya Blog
-header-img: img/home-bg.jpg
+header-img: img/home-bg-little-prince1.jpg
 email: yinyeya@gmail.com
 description: "生物医学狗的非典型日常 | fake生信撸码猿 | 跟着大佬瞎搞薅羊毛 | 胡整瞎搞全都要 | 外面的世界看着精彩实则无奈"
 keyword: "隐夜涯, Yinyeya, 生物科研狗, 做bench的伪生信攻城狮, 为了活着啥也干"
@@ -79,7 +79,7 @@ ga_domain: "https://www.xinlongluo.top"
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "For the next quantum leap<br>想避世更要在世上"
-sidebar-avatar: /img/ute_dragon.gif     # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/cute_dragon.gif    # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
