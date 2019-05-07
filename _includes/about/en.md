@@ -1,4 +1,8 @@
 
 
-> Nothing is everything!
+### STILL BEING UPDATING!
+
+BUT
+
+### *GOOLE TRANSLATION* IS THE BEST!
 

@@ -58,7 +58,7 @@ kramdown:
 
 
 
-# Disqus settings
+# Disqus settings (https://disqus.com/)
 disqus_username: yinyeya
 
 # Netease settings
@@ -79,7 +79,7 @@ ga_domain: "https://www.xinlongluo.top"
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "For the next quantum leap<br>想避世更要在世上"
-sidebar-avatar: /img/stand-under-sky.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/ute_dragon.gif     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
