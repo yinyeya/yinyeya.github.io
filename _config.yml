@@ -72,7 +72,7 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: 'UA-139612007-1'            # Format: UA-xxxxxx-xx
-ga_domain: "https://www.xinlongluo.top"
+ga_domain: www.xinlongluo.top
 
 
 
