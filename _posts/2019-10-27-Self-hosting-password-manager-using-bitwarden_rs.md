@@ -23,14 +23,18 @@ tags:
 具体部署流程如下。
 
 # 部署要求
+
 准备一个域名并解析到你的VPS服务器。
 
 # 安装docker
+
 ### 卸载老版本（若未安装过可省略此步）
+
 ```bash
 $ sudo apt-get remove docker docker-engine 
 ```
 ### 安装最新的docker （需要root权限）
+
 ```bash
 $ curl -sSL https://get.docker.com/ | sh
 $ systemctl start docker
@@ -39,10 +43,12 @@ $ systemctl enable docker
 shell会提示你输入sudo的密码，然后开始执行最新的docker过程
 
 ### 确认Docker成功最新的docker
+
 ```bash
 $ sudo docker run hello-world
 ```
 # 安装docker-compose
+
 docker-compose是一个用来**定义和运行多个 Docker 容器的应用（Defining and running multi-container Docker applications）**。经常会碰到需要多个容器相互配合来完成某项任务的情况。例如要实现一个典型的Web 项目，至少需要一个Web 服务端容器，还需要再加上后端的数据库服务容器，甚至还包括负载均衡容器等。docker 提供了一个命令行工具 docker-compose 帮助完成容器的编排，它允许用户通过编写一个`docker-compose.yml` 模板文件（[YAML](http://einverne.github.io/post/2015/08/yaml.html) 格式）来针对特定项目，定义一组相关联的应用容器。
 docker-compose相关的内容和教程：
 
@@ -50,12 +56,14 @@ docker-compose相关的内容和教程：
 
 ## 从github上下载docker-compose二进制文件安装
 ### 下载最新版的docker-compose文件
+
 ```bash
 $ sudo curl -L https://github.com/docker/compose/releases/download/1.16.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 ````
 如果要更新 docker-compose，也可以直接使用这条命令，只需要修改版本号为最新的 docker-compose 版本号。
 
 ### 添加可执行权限
+
 ```bash
 $ sudo chmod +x /usr/local/bin/docker-compose
 ```
